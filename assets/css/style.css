@@ -87,7 +87,14 @@ h3 {
     background-color: #4aaaa5;
 	color: #ffffff;
 	height: 40px;
-	width: 80px;
+    width: 80px;
+    animation-name: SubmitButton;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes SubmitButton {
+    from {background-color: #4aaaa5;}
+    to {background-color: #f08725;}
 }
 footer {
     line-height: 2.4;
